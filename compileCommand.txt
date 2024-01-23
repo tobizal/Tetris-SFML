@@ -1,0 +1,8 @@
+#This file contains the command that yields proper compilation of an SFML project.
+
+#Paste this command in the terminal in the directory conatining the .cpp files
+
+g++ -std=gnu++20 -arch x86_64 main.cpp -o prog3 -lsfml-audio -lsfml-window -lsfml-system -lsfml-graphics
+
+g++ -std=gnu++20 main.cpp -I/opt/homebrew/Cellar/sfml/2.6.1/include -L/opt/homebrew/Cellar/sfml/2.6.1/lib -o prog7 -lsfml-window -lsfml-graphics -lsfml-audio -lsfml-system
+
