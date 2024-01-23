@@ -2,5 +2,8 @@
 
 #Paste this command in the terminal in the directory conatining the .cpp files
 
-g++ -std=gnu++20 main.cpp -I/{sfml-installation-path}/include -L/{sfml-installation-path}/lib -o tetris -lsfml-window -lsfml-graphics -lsfml-audio -lsfml-system
+$ g++ -std=gnu++20 main.cpp -I{sfml-installation-path}/include -L{sfml-installation-path}/lib -o tetris -lsfml-window -lsfml-graphics -lsfml-audio -lsfml-system
 
+On Linux there may be a shared library load error. If so, add the {sfml-installation-path}/lib to the LD_LIBRARY_PATH variable:
+
+$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:{sfml-installation-path}/lib
