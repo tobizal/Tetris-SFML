@@ -2,7 +2,5 @@
 
 #Paste this command in the terminal in the directory conatining the .cpp files
 
-g++ -std=gnu++20 -arch x86_64 main.cpp -o prog3 -lsfml-audio -lsfml-window -lsfml-system -lsfml-graphics
-
-g++ -std=gnu++20 main.cpp -I/opt/homebrew/Cellar/sfml/2.6.1/include -L/opt/homebrew/Cellar/sfml/2.6.1/lib -o prog7 -lsfml-window -lsfml-graphics -lsfml-audio -lsfml-system
+g++ -std=gnu++20 main.cpp -I/{sfml-installation-path}/include -L/{sfml-installation-path}/lib -o tetris -lsfml-window -lsfml-graphics -lsfml-audio -lsfml-system
 
