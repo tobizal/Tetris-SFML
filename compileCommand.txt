@@ -1,4 +1,4 @@
-#This file contains the command that yields proper compilation of an SFML project.
+#This file contains the command that ensures proper compilation of an SFML project.
 
 #Paste this command in the terminal in the directory conatining the .cpp files
 
