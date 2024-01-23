@@ -7,7 +7,7 @@
 
 const int W = 20;
 const int H = 30;
-const int scaleFactor = 2;
+const int scaleFactor = 1;
 const int unit = 18*scaleFactor;
 const int WIDTH = W*unit;
 const int HEIGHT = H*unit;
